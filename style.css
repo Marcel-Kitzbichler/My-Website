@@ -77,3 +77,8 @@ body{
 .gallery{
     padding-top: 20px;
 }
+
+.articleLink{
+    text-decoration: none;
+    color: #213bb1;
+}
