@@ -20,11 +20,15 @@ function getBrowserSize(){
     return {'width':w, 'height': h};
 }
 
-
+function setProportions(){
     if(parseInt(getBrowserSize().width) > getBrowserSize().height){
         r.style.setProperty('--increase', '40');
+        r.style.setProperty('--articlepad', '20%');
     }
     else{
         r.style.setProperty('--increase', '20');
         r.style.setProperty('--articlepad', '0%');	
     }
+    setTimeout(setProportions, 1000);
+}
+setProportions();
