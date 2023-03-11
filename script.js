@@ -24,10 +24,12 @@ function setProportions(){
     if(parseInt(getBrowserSize().width) > getBrowserSize().height){
         r.style.setProperty('--increase', '40');
         r.style.setProperty('--articlepad', '20%');
+        r.style.setProperty("--linksize", "20px")
     }
     else{
-        r.style.setProperty('--increase', '20');
-        r.style.setProperty('--articlepad', '0%');	
+        r.style.setProperty('--increase', '30');
+        r.style.setProperty('--articlepad', '0%');
+        r.style.setProperty("--linksize", "30px")	
     }
     setTimeout(setProportions, 1000);
 }

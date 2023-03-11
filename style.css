@@ -1,6 +1,7 @@
 :root {
     --increase: 40px;
     --articlepad: 20%;
+    --linksize: 20px;
   }
 
 body{
@@ -26,7 +27,7 @@ body{
 
 .navbarlinks{
     text-align: center;
-    font-size: 20px;
+    font-size: var(--linksize);
     transition: 0.5s;
     color: #ffffff;
     text-decoration: none;
