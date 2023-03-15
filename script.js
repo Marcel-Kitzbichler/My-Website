@@ -29,7 +29,7 @@ function setProportions(){
     else{
         r.style.setProperty('--increase', '30');
         r.style.setProperty('--articlepad', '0%');
-        r.style.setProperty("--linksize", "30px")	
+        r.style.setProperty("--linksize", "28px")	
     }
     setTimeout(setProportions, 1000);
 }
