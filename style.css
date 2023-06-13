@@ -83,3 +83,14 @@ body{
     text-decoration: none;
     color: #213bb1;
 }
+
+.linkLinkpage{
+    border: 2px solid #bbbbbbd2;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+    transition: 0.5s;
+    text-decoration: none;
+    color: #dadada;
+    font-size: 30px;
+}
