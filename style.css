@@ -5,7 +5,7 @@
   }
 
 body{
-    background-image: url(images/Background.png);
+    background-image: url(images/Background.jpg);
     background-color: #313030;
     background-position: center;
     background-attachment:fixed;
@@ -61,6 +61,18 @@ body{
     border-radius: 25px;
 }
 
+.slim{
+    padding-bottom: 2px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding-top: 2px;
+}
+
+.noAdjust{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
 .header{
     text-align: center;
     font-size: 50px;
@@ -85,12 +97,10 @@ body{
 }
 
 .linkLinkpage{
-    border: 2px solid #bbbbbbd2;
-    border-radius: 15px;
     padding: 5px;
     margin: 5px;
     transition: 0.5s;
     text-decoration: none;
     color: #dadada;
-    font-size: 30px;
+    font-size: 25px;
 }
